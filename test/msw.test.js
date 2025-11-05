@@ -8,7 +8,7 @@ export const server = setupServer();
 
 server.listen();
 
-describe("/", () => {
+describe("msw", () => {
   test("with", async () => {
     server.use(
       http.post("https://httpbun.com/payload", () => {

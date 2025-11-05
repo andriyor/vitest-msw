@@ -10,7 +10,7 @@ vi.mock('../api-wrapper', () => ({
     }),
 }));
 
-describe("/", () => {
+describe("mock", () => {
     test("with", async () => {
         expect(await main()).toStrictEqual({
             firstName: "John",

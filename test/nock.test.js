@@ -4,7 +4,7 @@ import nock from "nock";
 import {main} from "../index";
 
 
-describe("/", () => {
+describe("nock", () => {
     test("with", async () => {
         nock('https://httpbun.com')
             .post('/payload')
